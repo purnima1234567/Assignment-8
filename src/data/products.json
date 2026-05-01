@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "UV Protection Sunglasses",
+    "brand": "SunShade",
+    "price": 15,
+    "rating": 4.7,
+    "stock": 10,
+    "description": "Stylish UV protection sunglasses perfect for summer outings.",
+    "image": "https://picsum.photos/id/1011/800/600",
+    "category": "Accessories"
+  },
+  {
+    "id": 2,
+    "name": "Summer Cotton T-Shirt",
+    "brand": "CoolWear",
+    "price": 20,
+    "rating": 4.5,
+    "stock": 15,
+    "description": "Lightweight breathable t-shirt for hot summer days.",
+    "image": "https://picsum.photos/id/1005/800/600",
+    "category": "Clothing"
+  },
+  {
+    "id": 3,
+    "name": "Beach Straw Hat",
+    "brand": "SunStyle",
+    "price": 12,
+    "rating": 4.3,
+    "stock": 8,
+    "description": "Wide brim hat for full sun protection at beach.",
+    "image": "https://picsum.photos/id/1016/800/600",
+    "category": "Accessories"
+  },
+  {
+    "id": 4,
+    "name": "Waterproof Sunscreen SPF 50",
+    "brand": "GlowCare",
+    "price": 10,
+    "rating": 4.6,
+    "stock": 20,
+    "description": "Strong SPF sunscreen for long summer protection.",
+    "image": "https://picsum.photos/id/1062/800/600",
+    "category": "Skincare"
+  },
+  {
+    "id": 5,
+    "name": "Beach Slippers",
+    "brand": "StepEase",
+    "price": 8,
+    "rating": 4.2,
+    "stock": 25,
+    "description": "Comfortable slippers perfect for beach walking.",
+    "image": "https://picsum.photos/id/21/800/600",
+    "category": "Footwear"
+  },
+  {
+    "id": 6,
+    "name": "Portable Water Bottle",
+    "brand": "HydroGo",
+    "price": 9,
+    "rating": 4.8,
+    "stock": 30,
+    "description": "Keep yourself hydrated during hot summer days.",
+    "image": "https://picsum.photos/id/30/800/600",
+    "category": "Accessories"
+  }
+]   
