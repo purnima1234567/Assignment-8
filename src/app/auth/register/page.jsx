@@ -1,17 +1,12 @@
 'use client'
 import { authClient } from '@/lib/auth-client';
-import { useRouter, useSearchParams,  } from 'next/navigation';
+import { useRouter, } from 'next/navigation';
 import React from 'react';
 import { useForm } from 'react-hook-form';
 
 const RegisterPage = () => {
 
     const router = useRouter();
-        const searchParams = useSearchParams();
-    
-        const redirect = searchParams.get("redirect") || "/";
-
-
 
 
     const {
@@ -32,7 +27,7 @@ const RegisterPage = () => {
             email: email, 
             password: password, 
             image: photo,
-            callbackURL: redirect,
+            callbackURL: "/",
 
         });
 
@@ -43,7 +38,7 @@ const RegisterPage = () => {
 
         if(res) {
             alert("Signup succesfull");
-            router.push(redirect);
+            router.push("/");
         }
 
     };

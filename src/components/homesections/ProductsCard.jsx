@@ -4,6 +4,7 @@ import React from "react";
 import products from "@/data/products.json";
 import { useRouter } from "next/navigation";
 import { authClient } from "@/lib/auth-client";
+import Link from "next/link";
 
 const Products = () => {
   const router = useRouter();
@@ -18,6 +19,8 @@ const Products = () => {
       router.push(`/auth/login?redirect=/product/${id}`);      
     }
   };
+
+
 
   return (
     <section className="py-8 container mx-auto px-4">
@@ -53,7 +56,7 @@ const Products = () => {
             </p>
 
             <button
-              onClick={() => handleClick(product.id)}
+            onClick={() => handleClick(product.id)}
               className="mt-4 w-full bg-orange-500 text-white py-2 rounded hover:bg-orange-600 transition"
             >
               View Details
@@ -68,3 +71,5 @@ const Products = () => {
 };
 
 export default Products;
+
+
