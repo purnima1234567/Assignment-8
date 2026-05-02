@@ -80,11 +80,11 @@ const LoginContent = () => {
                     </button>
 
                     <div className="flex flex-col gap-2 mt-3">
-                        <button type="button" className="btn" onClick={handleGoogleSignin}>
+                        <button className="btn text-orange-500" onClick={handleGoogleSignin}>
                             <FaGoogle /> Login with Google
                         </button>
 
-                        <button type="button" className="btn" onClick={handleGithubSignin}>
+                        <button className="btn text-orange-500" onClick={handleGithubSignin}>
                             <FaGithub /> Login with Github
                         </button>
                     </div>
@@ -92,7 +92,7 @@ const LoginContent = () => {
                 </form>
 
                 <p className='mt-4'>
-                    Don't have an account? <Link href={'/auth/register'}>Register</Link>
+                    Don't have an account? <Link href={'/auth/register'} className='text-orange-500'>Register</Link>
                 </p>
 
             </div>
